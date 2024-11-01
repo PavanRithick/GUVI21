@@ -1,0 +1,17 @@
+/* General styling */
+.App {
+  text-align: center;
+}
+
+.hero {
+  background-color: #333;
+  color: white;
+  padding: 2rem;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columns */
+  gap: 1rem; /* space between cards */
+  padding: 2rem;
+}
